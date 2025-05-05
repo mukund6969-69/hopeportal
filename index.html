@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopePortal - India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-hands-helping"></i>
+                <span>HopePortal</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#find-help">Find Help</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Together We Can Make a Difference</h1>
+                <p>Find and provide support through various community services</p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary" data-scroll="services">Explore Services</button>
+                    <button class="cta-button secondary" data-scroll="contact">Get Involved</button>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="pulse-circle"></div>
+                <div class="helping-hands">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card blood-donation">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Blood Donation</h3>
+                    <p>Find blood donation camps and centers near you</p>
+                    <div class="service-details">
+                        <p><i class="fas fa-clock"></i> Open 24/7</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 500+ Centers</p>
+                        <p><i class="fas fa-users"></i> 10,000+ Daily Donors</p>
+                    </div>
+                    <button class="info-button" data-scroll="blood-info">Learn More</button>
+                </div>
+                <div class="service-card health-facilities">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Health Facilities</h3>
+                    <p>Access to healthcare centers and medical services</p>
+                    <div class="service-details">
+                        <p><i class="fas fa-stethoscope"></i> 100+ Specialists</p>
+                        <p><i class="fas fa-ambulance"></i> Emergency Services</p>
+                        <p><i class="fas fa-pills"></i> Pharmacy Support</p>
+                    </div>
+                    <button class="info-button" data-scroll="health-info">Learn More</button>
+                </div>
+                <div class="service-card ngo-help">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>NGO Support</h3>
+                    <p>Connect with NGOs for various community services</p>
+                    <div class="service-details">
+                        <p><i class="fas fa-graduation-cap"></i> Education Programs</p>
+                        <p><i class="fas fa-home"></i> Shelter Support</p>
+                        <p><i class="fas fa-utensils"></i> Food Distribution</p>
+                    </div>
+                    <button class="info-button" data-scroll="ngo-info">Learn More</button>
+                </div>
+                <div class="service-card cloth-donation">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Cloth Donation</h3>
+                    <p>Find centers to donate clothes and help those in need</p>
+                    <div class="service-details">
+                        <p><i class="fas fa-truck"></i> Free Pickup</p>
+                        <p><i class="fas fa-recycle"></i> Recycling Program</p>
+                        <p><i class="fas fa-people-arrows"></i> Direct Distribution</p>
+                    </div>
+                    <button class="info-button" data-scroll="cloth-info">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Information Sections -->
+        <section id="blood-info" class="info-section">
+            <div class="info-content">
+                <h2>Blood Donation Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Eligibility</h3>
+                        <p>Age: 18-65 years<br>Weight: Minimum 45kg<br>Hemoglobin: 12.5g/dL minimum<br>No recent tattoos/piercings<br>No major surgeries in last 6 months</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Process</h3>
+                        <p>Registration → Medical Check → Donation → Refreshment<br>Total Time: 30-45 minutes<br>Donation Frequency: Every 3 months<br>Donation Amount: 350-450ml</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Benefits</h3>
+                        <p>Free health checkup<br>Reduces risk of heart disease<br>Saves up to 3 lives<br>Free refreshments<br>Certificate of appreciation</p>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <h3>Safety Measures</h3>
+                    <ul>
+                        <li><i class="fas fa-shield-alt"></i> Sterilized equipment</li>
+                        <li><i class="fas fa-user-md"></i> Trained medical staff</li>
+                        <li><i class="fas fa-hand-sparkles"></i> Sanitized environment</li>
+                        <li><i class="fas fa-temperature-high"></i> Temperature checks</li>
+                    </ul>
+                </div>
+                <button class="back-button" data-scroll="services">Back to Services</button>
+            </div>
+        </section>
+
+        <section id="health-info" class="info-section">
+            <div class="info-content">
+                <h2>Health Facilities Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-stethoscope"></i>
+                        <h3>Services</h3>
+                        <p>General Checkups<br>Emergency Care<br>Specialist Consultations<br>Diagnostic Tests<br>Pharmacy Services<br>Ambulance Services</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Appointments</h3>
+                        <p>Online Booking Available<br>24/7 Emergency Services<br>Home Care Options<br>Telemedicine Support<br>Follow-up Care<br>Health Records Access</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-file-medical"></i>
+                        <h3>Documents</h3>
+                        <p>Aadhar Card Required<br>Health Insurance Accepted<br>Medical History Form<br>Prescription Records<br>Test Reports<br>Insurance Documents</p>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <h3>Facility Features</h3>
+                    <ul>
+                        <li><i class="fas fa-wheelchair"></i> Wheelchair accessible</li>
+                        <li><i class="fas fa-parking"></i> Free parking</li>
+                        <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                        <li><i class="fas fa-coffee"></i> Cafeteria services</li>
+                    </ul>
+                </div>
+                <button class="back-button" data-scroll="services">Back to Services</button>
+            </div>
+        </section>
+
+        <section id="ngo-info" class="info-section">
+            <div class="info-content">
+                <h2>NGO Support Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Volunteer</h3>
+                        <p>Skill-based Volunteering<br>Community Service<br>Event Participation<br>Teaching Support<br>Fundraising<br>Administrative Work</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>Support</h3>
+                        <p>Financial Donations<br>Material Donations<br>Professional Services<br>Educational Support<br>Medical Aid<br>Infrastructure Development</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Impact</h3>
+                        <p>Community Development<br>Education Support<br>Healthcare Access<br>Women Empowerment<br>Child Welfare<br>Environmental Conservation</p>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <h3>NGO Categories</h3>
+                    <ul>
+                        <li><i class="fas fa-graduation-cap"></i> Education NGOs</li>
+                        <li><i class="fas fa-heartbeat"></i> Health NGOs</li>
+                        <li><i class="fas fa-tree"></i> Environmental NGOs</li>
+                        <li><i class="fas fa-child"></i> Child Welfare NGOs</li>
+                    </ul>
+                </div>
+                <button class="back-button" data-scroll="services">Back to Services</button>
+            </div>
+        </section>
+
+        <section id="cloth-info" class="info-section">
+            <div class="info-content">
+                <h2>Cloth Donation Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>Acceptable Items</h3>
+                        <p>Clean, Gently Used Clothes<br>Blankets & Bedding<br>Winter Wear<br>School Uniforms<br>Professional Attire<br>Children's Clothing</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Drop-off Points</h3>
+                        <p>Collection Centers<br>Mobile Collection Units<br>Home Pickup Available<br>School Collection Points<br>Corporate Collection<br>Community Centers</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-recycle"></i>
+                        <h3>Process</h3>
+                        <p>Sorting & Cleaning<br>Distribution<br>Recycling Options<br>Quality Check<br>Packaging<br>Transportation</p>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <h3>Donation Guidelines</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Clean and wearable condition</li>
+                        <li><i class="fas fa-sort"></i> Properly sorted by category</li>
+                        <li><i class="fas fa-box"></i> Packed in good condition</li>
+                        <li><i class="fas fa-tag"></i> Labeled with size/type</li>
+                    </ul>
+                </div>
+                <button class="back-button" data-scroll="services">Back to Services</button>
+            </div>
+        </section>
+
+        <section id="search" class="search-section">
+            <div class="search-container">
+                <h2>Find Help Near You</h2>
+                <div class="search-box">
+                    <select id="service-type">
+                        <option value="">Select Service Type</option>
+                        <option value="blood">Blood Donation</option>
+                        <option value="health">Health Facilities</option>
+                        <option value="ngo">NGO Support</option>
+                        <option value="cloth">Cloth Donation</option>
+                    </select>
+                    <select id="state-select">
+                        <option value="">Select State</option>
+                    </select>
+                    <select id="city-select">
+                        <option value="">Select City</option>
+                    </select>
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <h2>Our Impact</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <i class="fas fa-tint"></i>
+                    <h3>Blood Donations</h3>
+                    <p class="stat-number">50,000+</p>
+                    <p class="stat-detail">Units collected monthly</p>
+                    <p class="stat-info">Saving 150,000+ lives annually</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Health Facilities</h3>
+                    <p class="stat-number">1,000+</p>
+                    <p class="stat-detail">Centers across India</p>
+                    <p class="stat-info">Serving 1M+ patients monthly</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>NGO Partners</h3>
+                    <p class="stat-number">500+</p>
+                    <p class="stat-detail">Active organizations</p>
+                    <p class="stat-info">Working in 100+ cities</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Cloth Donations</h3>
+                    <p class="stat-number">100,000+</p>
+                    <p class="stat-detail">Items collected monthly</p>
+                    <p class="stat-info">Helping 50,000+ families</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process-section">
+            <h2>How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Select Service</h3>
+                    <p>Choose from our range of services including blood donation, health facilities, NGO support, and cloth donation</p>
+                    <div class="step-details">
+                        <p><i class="fas fa-check"></i> Easy navigation</p>
+                        <p><i class="fas fa-check"></i> Detailed information</p>
+                        <p><i class="fas fa-check"></i> Service comparison</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Find Location</h3>
+                    <p>Use our search feature to find the nearest service center or donation point</p>
+                    <div class="step-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Location search</p>
+                        <p><i class="fas fa-directions"></i> Directions</p>
+                        <p><i class="fas fa-clock"></i> Operating hours</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Involved</h3>
+                    <p>Connect with the service provider, schedule an appointment, or visit the center</p>
+                    <div class="step-details">
+                        <p><i class="fas fa-calendar"></i> Book appointments</p>
+                        <p><i class="fas fa-phone"></i> Contact support</p>
+                        <p><i class="fas fa-user-plus"></i> Register as donor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Community Street, New Delhi, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 1800-123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>support@hopeportal.org</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rating" class="rating-section">
+            <h2>Rate Our Services</h2>
+            <div class="rating-container">
+                <div class="rating-form">
+                    <form id="ratingForm">
+                        <div class="form-group">
+                            <label for="serviceRating">Select Service</label>
+                            <select id="serviceRating" name="serviceRating" required>
+                                <option value="">Choose a service</option>
+                                <option value="blood">Blood Donation</option>
+                                <option value="health">Health Facilities</option>
+                                <option value="ngo">NGO Support</option>
+                                <option value="cloth">Cloth Donation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Rating</label>
+                            <div class="star-rating">
+                                <i class="fas fa-star" data-rating="1"></i>
+                                <i class="fas fa-star" data-rating="2"></i>
+                                <i class="fas fa-star" data-rating="3"></i>
+                                <i class="fas fa-star" data-rating="4"></i>
+                                <i class="fas fa-star" data-rating="5"></i>
+                            </div>
+                            <input type="hidden" id="ratingValue" name="rating" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="feedback">Feedback</label>
+                            <textarea id="feedback" name="feedback" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Submit Rating</button>
+                    </form>
+                </div>
+                <div class="rating-summary">
+                    <h3>Overall Ratings</h3>
+                    <div class="service-ratings">
+                        <div class="service-rating">
+                            <span>Blood Donation</span>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-value">4.5</span>
+                        </div>
+                        <div class="service-rating">
+                            <span>Health Facilities</span>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-value">4.0</span>
+                        </div>
+                        <div class="service-rating">
+                            <span>NGO Support</span>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-value">5.0</span>
+                        </div>
+                        <div class="service-rating">
+                            <span>Cloth Donation</span>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-value">4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 1800-123-4567</p>
+                <p><i class="fas fa-envelope"></i> support@hopeportal.org</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#blood-donation">Blood Donation</a></li>
+                    <li><a href="#health-facilities">Health Facilities</a></li>
+                    <li><a href="#ngo-help">NGO Support</a></li>
+                    <li><a href="#cloth-donation">Cloth Donation</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HopePortal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
